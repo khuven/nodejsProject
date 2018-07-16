@@ -5,11 +5,11 @@ app.set("view engine",ejs);
 
 app.use('/assets', express.static('public'));
 
-app.get('/contact', function (req,resp){}
-    resp.render('contact');
+app.get('/contact', function (req,resp) {
+        req.query
+        resp.render('contact');
 
-
-
+    }
 );
 
 
